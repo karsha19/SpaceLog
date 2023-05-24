@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+	<title>Spacelog</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="UTF-8">
+	<meta name="author" content="etahae">
+	<link rel="stylesheet", href="css/style.css">
+	<link rel = "icon" href ="images/title_ico.png" >
+</head>
+
+<body>
+	<div>
+		<video id="bg_video" autoplay muted loop>
+			<source src="videos/space.mp4">
+		</video>
+	</div>
+
+	<div id="form">
+		<form method="post">
+			<label class="formLabels" for="title">SpaceLog</label>
+			<br>
+			<input class="formInputs" type="text" id="email" name="email" placeholder="Email address" required>
+			<br>
+			<!-- <label class="formLabels" for="password">password :</label> -->
+			<input class="formInputs" type="password" id="password" name="password" placeholder="password" autocomplete="off" required>
+		</form>
+		<button type="button" id="signInButton">Sign in</button>
+		<button type="button" id="signUpButton">Sign up</button>
+		<br>
+	</div>
+	
+	<div id="checkBoxDiv">
+		<input type="checkbox" id="checkBox" required></input>
+		<label for="checkBox" id="terms"><a>Accept terms and conditions</a></label>
+	</div>
+
+	<div id="nameInput">
+		<form id="nameInputForm">
+			<label class="formLabels">Enter nickname: </label>
+			<br>
+			<input id="_name" class="formInputs" type="text" required>
+			<br>
+			<button id="nameSubmit" type="button">submit</button>
+		</form>
+	</div>
+
+	<!-- <iframe></iframe> -->
+	
+	<!-- <audio controls autoplay loop volume="0.2">
+		<source src="sounds/bg_sound.mp3">
+	</audio> -->
+
+	<i ></i>
+
+	<p id="paragraph"></p>
+	<script src="js/index.js"></script>
+</body>
+
+</html>
